@@ -7,7 +7,7 @@ st.markdown(
     <style>
     [data-testid="stAppViewContainer"] {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                    url("https://images4.alphacoders.com/133/thumb-1920-1336369.jpeg");
+                    url("https://images.app.goo.gl/nrVF8RJ2aJmNSkW76");
         background-size: cover;
         background-position: center;
         background-attachment: fixed;

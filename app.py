@@ -5,6 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 st.markdown(
     """
     <style>
+    .text-color{color : white;}
     [data-testid="stAppViewContainer"] {
         background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), 
                     url("https://images.alphacoders.com/135/thumb-350-1354176.webp");

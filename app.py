@@ -3,21 +3,6 @@ from PyPDF2 import PdfReader
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-def set_bg_image(http://images.app.goo.gl/vHxj5nivVYUi2KHt7):
-    st.markdown(
-        f"""
-        <style>
-        .stApp {{
-            background-image:url("{http://images.app.goo.gl/vHxj5nivVYUi2KHt7})");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }}
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-
 
 def extract_text_from_pdf(file):
     pdf = PdfReader(file)

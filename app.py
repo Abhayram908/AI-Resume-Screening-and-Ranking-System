@@ -2,7 +2,20 @@ import streamlit as st
 from PyPDF2 import PdfReader
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-
+st.markdown(
+    """
+    <style>
+    [data-testid="stAppViewContainer"] {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url("https://images4.alphacoders.com/133/thumb-1920-1336369.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 def extract_text_from_pdf(file):
     pdf = PdfReader(file)
